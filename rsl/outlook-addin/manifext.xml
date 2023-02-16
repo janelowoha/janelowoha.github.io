@@ -4,15 +4,15 @@
   xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
   xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0"
   xsi:type="MailApp">
-  <Id>7164e750-dc86-49c0-b548-1bac57abdc7c</Id>
+  <Id>62f709df-a838-4d32-981d-d122caa22c37</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>Microsoft Outlook Dev Center</ProviderName>
+  <ProviderName>Jane Lowoha</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Add-in Command Demo" />
-  <Description DefaultValue="Adds command buttons to the ribbon in Outlook"/>
+  <DisplayName DefaultValue="RSL Outlook Addin" />
+  <Description DefaultValue="RSL Outlook Addin"/>
   <IconUrl DefaultValue="https://appdemo.contoso.com/images/blue-64.png" />
   <HighResolutionIconUrl DefaultValue="https://appdemo.contoso.com/images/blue-128.png" />
-  <SupportUrl DefaultValue="https://appdemo.contoso.com"/>
+  <SupportUrl DefaultValue="https://janelowoha.github.io"/>
   <Hosts>
     <Host Name="Mailbox" />
   </Hosts>
