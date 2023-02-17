@@ -50,8 +50,8 @@
             <!-- <Runtime resid="WebViewRuntime.Url"> -->
               <!-- JavaScript file that contains the event handlers. This is used by Outlook on Windows. -->
               <!-- <Override type="javascript" resid="JSRuntime.Url"/> -->
-            </Runtime>
-          </Runtimes>
+            <!-- </Runtime> -->
+       <!--    </Runtimes> -->
           <DesktopFormFactor>
 		    <ExtensionPoint xsi:type="PrimaryCommandSurface">
 			 <OfficeTab id="TabDefault">
