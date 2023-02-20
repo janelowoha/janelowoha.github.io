@@ -6,8 +6,8 @@
   <DefaultLocale>nl-BE</DefaultLocale>
   <DisplayName DefaultValue="Time Registration"/>
   <Description DefaultValue="Use Outlook Appointments to register time on Project"/>
-  <IconUrl DefaultValue="https://janelowoha.github.io/plugins/o365-outlook-time/assets/icon64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://janelowoha.github.io/plugins/o365-outlook-time/assets/icon80.png"/>
+  <IconUrl DefaultValue="https://janelowoha.github.io/plugins/o365-outlook/assets/icon64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://janelowoha.github.io/plugins/o365-outlook/assets/icon80.png"/>
   <SupportUrl DefaultValue="https://janelowoha.github.io/help"/>
   <AppDomains>
     <AppDomain>https://janelowoha.github.io</AppDomain>
@@ -23,7 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://janelowoha.github.io/plugins/o365-outlook-time/taskpanes/taskpane.html"/>
+        <SourceLocation DefaultValue="https://janelowoha.github.io/plugins/o365-outlook/taskpanes/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -135,14 +135,14 @@
       </Hosts>
       <Resources>
         <bt:Images>
-          <bt:Image id="Icon.16x16" DefaultValue="https://janelowoha.github.io/plugins/o365-outlook-time/assets/icon16.png"/>
-          <bt:Image id="Icon.32x32" DefaultValue="https://janelowoha.github.io/plugins/o365-outlook-time/assets/icon32.png"/>
-          <bt:Image id="Icon.80x80" DefaultValue="https://janelowoha.github.io/plugins/o365-outlook-time/assets/icon80.png"/>
+          <bt:Image id="Icon.16x16" DefaultValue="https://janelowoha.github.io/plugins/o365-outlook/assets/icon16.png"/>
+          <bt:Image id="Icon.32x32" DefaultValue="https://janelowoha.github.io/plugins/o365-outlook/assets/icon32.png"/>
+          <bt:Image id="Icon.80x80" DefaultValue="https://janelowoha.github.io/plugins/o365-outlook/assets/icon80.png"/>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="JSRuntime.Url" DefaultValue="https://janelowoha.github.io/plugins/o365-outlook-time/commands/commands.js"/>
-          <bt:Url id="WebViewRuntime.Url" DefaultValue="https://janelowoha.github.io/plugins/o365-outlook-time/commands/commands.html"/>
-          <bt:Url id="Taskpane.Url" DefaultValue="http://c://tmp/git/plugins/O365-outlook-plugin/taskpanes/settings.html"/>
+          <!-- <bt:Url id="JSRuntime.Url" DefaultValue="https://janelowoha.github.io/plugins/o365-outlook-time/commands/commands.js"/> -->
+          <!--<bt:Url id="WebViewRuntime.Url" DefaultValue="https://janelowoha.github.io/plugins/o365-outlook-time/commands/commands.html"/>-->
+          <bt:Url id="Taskpane.Url" DefaultValue="https://tools.roeselare.be/hr/pixee/O365-outlook/taskpanes/settings.html"/>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="CategoriesGroupLabel" DefaultValue="Office Add-ins Smart Alerts Sample"/>
