@@ -55,9 +55,9 @@
           <DesktopFormFactor>
 		    <ExtensionPoint xsi:type="MessageReadCommandSurface">
 			 <OfficeTab id="TabDefault">
-			     <Group id="CategoriesGroupMessageComposed">
+			     <Group id="CategoriesGroupMessageCompose1">
                   <Label resid="CategoriesGroupLabel"/>
-                  <Control xsi:type="Button" id="MessageComposeSelectButton">
+                  <Control xsi:type="Button" id="MessageComposeSelectButton1">
                     <Label resid="SelectButtonLabel"/>
                     <Supertip>
                       <Title resid="SelectButtonLabel"/>
