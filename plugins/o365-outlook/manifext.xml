@@ -53,7 +53,7 @@
             <!-- </Runtime> -->
        <!--    </Runtimes> -->
           <DesktopFormFactor>
-		    <ExtensionPoint xsi:type="PrimaryCommandSurface">
+		    <ExtensionPoint xsi:type="MessageReadCommandSurface">
 			 <OfficeTab id="TabDefault">
 			     <Group id="CategoriesGroupMessageCompose">
                   <Label resid="CategoriesGroupLabel"/>
@@ -142,7 +142,7 @@
         <bt:Urls>
           <bt:Url id="JSRuntime.Url" DefaultValue="https://janelowoha.github.io/plugins/o365-outlook-time/commands/commands.js"/>
           <bt:Url id="WebViewRuntime.Url" DefaultValue="https://janelowoha.github.io/plugins/o365-outlook-time/commands/commands.html"/>
-          <bt:Url id="Taskpane.Url" DefaultValue="https://janelowoha.github.io/plugins/o365-outlook-time/taskpanes/taskpane.html"/>
+          <bt:Url id="Taskpane.Url" DefaultValue="http://c://tmp/git/plugins/O365-outlook-plugin/taskpanes/settings.html"/>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="CategoriesGroupLabel" DefaultValue="Office Add-ins Smart Alerts Sample"/>

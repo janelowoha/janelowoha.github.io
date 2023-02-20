@@ -1,0 +1,39 @@
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Time Tracker Settings</title>
+	<script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tabulator/5.4.4/js/tabulator.min.js"></script>
+	<link hrf ="https://cdnjs.cloudflare.com/ajax/libs/tabulator/5.4.4/css/tabulator_materialize.min.css"></link>
+</head>
+
+<body>
+<div>Hello world</div>
+
+<div id="time-tracker-settings"></div>
+
+
+
+
+
+<script>
+	getTimeTrackerSettings();
+
+	function getTimeTrackerSettings() {
+		let settings = Office.context.roamingSettings.get("O365RSL-TimerTracker")
+		if (!settings){
+			settings = []
+		}
+		console.log(settings);
+		return settings ;
+		
+	}
+
+</script>
+
+</body>
+
+</html>
